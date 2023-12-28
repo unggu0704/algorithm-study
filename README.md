@@ -1,4 +1,4 @@
-# 백준 문제풀이
+# 코딩테스트 공부
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/generate_badge?boj=UNGGU556)](https://solved.ac/profile/unggu556)
