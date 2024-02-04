@@ -32,7 +32,7 @@ public class Main {
         // 입력 종료
 
         int[] mistakeMusic = new int[N + 1];
-        
+
         for (int i = 1; i < N; i++) {
             //뒤에 있는 악보보다 현재 어려운게 있다면
             if (muscis[i] >  muscis[i + 1]) {
@@ -47,8 +47,10 @@ public class Main {
             int end = questions[i][1] - 1;
 
             int mistakeCount = mistakeMusic[end] - mistakeMusic[start];
-            System.out.println(mistakeCount);
+            sb.append(mistakeCount).append("\n");
         }
+        
+        System.out.println(sb.toString());
     }
 }
 
