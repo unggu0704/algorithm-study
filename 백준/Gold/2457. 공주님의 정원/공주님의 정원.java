@@ -56,7 +56,6 @@ public class Main {
 				if (end < project.end) { //기존 종료일보다 앞에 잇는것 중에 가장 큰 종료일을 찾는다.
 					flag = true;
 					max = Math.max(max, project.end);
-					iter.remove();
 				}
 			}
 			
