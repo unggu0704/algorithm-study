@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 14400 KB, 시간: 132 ms
+메모리: 14328 KB, 시간: 128 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2024년 3월 2일 19:51:13
+2024년 3월 2일 20:03:43
 
 ### 문제 설명
 
@@ -32,7 +32,7 @@
 
 <p><그림 1>은 청소년 상어가 공간에 들어가기 전 초기 상태이다. 상어가 공간에 들어가면 (0, 0)에 있는 7번 물고기를 먹고, 상어의 방향은 ↘이 된다. <그림 2>는 상어가 들어간 직후의 상태를 나타낸다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 328px; height: 332px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/8f26df12-6f68-43a3-9f6e-7416144e91dc/-/preview/" style="width: 328px; height: 332px;"></p>
 
 <p style="text-align: center;"><그림 2></p>
 
@@ -44,7 +44,7 @@
 
 <p>2번 물고기의 방향은 ←인데, 그 방향에는 상어가 있으니 이동할 수 없다. 방향을 45도 반시계 회전을 하면 ↙가 되고, 이 칸에는 3번 물고기가 있다. 물고기가 있는 칸이니 서로 위치를 바꾸고, <그림 4>와 같아지게 된다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 327px; height: 329px;"></p>
+<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/7be317c7-b8b5-4b83-becb-ffd8550311fb/-/preview/" style="width: 327px; height: 329px;"></p>
 
 <p style="text-align: center;"><그림 4></p>
 
