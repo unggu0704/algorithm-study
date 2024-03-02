@@ -134,6 +134,9 @@ public class Main {
             }
             //공의 이동이 종료됨
 
+            if (ry == red.y && rx == red.x && by == blue.y && bx == blue.x)
+                continue;
+
             if (blueGoal) {
                 //map[ry][rx].red = false;    map[by][bx].blue = false;
                 continue;
