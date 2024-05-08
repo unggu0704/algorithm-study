@@ -23,15 +23,16 @@ public class Main {
 		
 	}
 	
+	static StringBuilder sb;
 	public static void backTracking(String[] input, String[] combine, boolean[] visited, int depth) {
 		if (depth == k) {
-			String str = "";
+			sb = new StringBuilder();
 			
 			for (String c : combine) {
-				str += c;
+				sb.append(c);
 			}
 			
-			set.add(str);
+			set.add(sb.toString());
 			
 			return;
 		}
